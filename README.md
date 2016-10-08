@@ -1,2 +1,3 @@
-# NetroPi
-A custom on boot ROM loader for RetroPie
+# Bootr
+A custom on boot ROM loader for RetroArch
+
