@@ -1,8 +1,11 @@
 {
     "consoles": [
         {
+            "nes": {
+                "command": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-fceumm/fceumm_libretro.so --config /opt/retropie/configs/nes/retroarch.cfg %ROM%"
+            },
             "gb": {
-                "comman": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg %ROM%"
+                "command": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg %ROM%"
             },
             "smc": {
                 "command": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-pocketsnes/snes9x2002_libretro.so --config /opt/retropie/configs/snes/retroarch.cfg %ROM%"
