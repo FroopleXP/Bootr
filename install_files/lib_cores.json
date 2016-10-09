@@ -1,0 +1,18 @@
+{
+    "consoles": [
+        {
+            "gb": {
+                "comman": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg %ROM%"
+            },
+            "smc": {
+                "command": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-pocketsnes/snes9x2002_libretro.so --config /opt/retropie/configs/snes/retroarch.cfg %ROM%"
+            },
+            "gbc": {
+                "command": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gbc/retroarch.cfg %ROM%"
+            },
+            "gba": {
+                "command": "/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gpsp/gpsp_libretro.so --config /opt/retropie/configs/gba/retroarch.cfg %ROM%"
+            }
+        }
+    ]
+}
